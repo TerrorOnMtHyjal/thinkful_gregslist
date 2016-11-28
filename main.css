@@ -1,0 +1,106 @@
+body {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: normal
+}
+
+header {
+	background-color: #e2e2e2;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	line-height: 30px;
+	padding: 0px 10px;
+}
+
+header h1, header nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+header h1 {
+	font-size: 20px;
+	font-weight: normal;
+}
+/* Couldn't find a better solution to push it to the right! */
+header nav {
+	position: absolute;
+	right: 50px;
+	top: 14px;
+}
+header nav a {
+	margin-left: 25px;
+	text-decoration: none;
+	color: purple;
+}
+header nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding-left: 80px;
+	padding-top: 100px;
+}
+
+input {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	border: #e2e2e2 solid 2px;
+	background: transparent;
+	border-radius: 5px;
+	height: 35px;	
+}
+
+input[type=text] {
+	width: 50%;
+}
+input[type=image] {
+	padding: 1px;
+}
+.searchNav, .results {
+	margin-top: 30px;
+}
+
+.searchNav nav {
+	display: inline-block;
+	border: #e2e2e2 solid 2px;
+	border-radius: 5px;
+}
+
+.searchNav nav a, .searchNav nav span {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+}
+.searchNav nav a {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #000;	
+}
+.searchNav nav a:hover {
+	text-decoration: underline;	
+}
+.searchNav nav span {
+	padding-left: 20px; 
+	padding-right: 20px;
+	border-left: #e2e2e2 solid 2px;
+	border-right: #e2e2e2 solid 2px;
+}
+.results ul {
+	padding: 0px;
+	list-style-type: none;
+}
+.result {
+	padding: 10px 0px;
+}
+.result a {
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.date, .loc {
+	color: #696969;
+}
