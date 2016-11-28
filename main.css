@@ -101,6 +101,9 @@ input[type=image] {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.result a:hover {
+	text-decoration: underline;
+} 
 .date, .loc {
 	color: #696969;
 }
